@@ -1,21 +1,9 @@
 <?php 
-  
-  $nombre = $_POST{'nombre'};
-  $correo = $_POST{'correo'};
-  $mensaje = $_POST{'mensaje'};
-
-
-  $destinatario = "kevinstikbernalbaccapro@gmail.com";
-  $asunto = "Contacto desde nuestra web";
-
-
-  $carta = "De: $nombre \n";
-  $carta .= "Correo: $correo \n";
-  $carta .= "Mensajee: $mensaje";
-
-
-  mail($destinatario, $asunto, $carta);
-  header('Location:index.html');
-
-
- ?>
+ $destino = "kevinstikbernalbaccapro@gmail.com";
+ $nombre = ($_POST["nombre"]);
+ $correo = ($_POST["correo"]);
+ $mensaje = ($_POST["mensaje"]);
+ $contenido = "\nnombre: " . $nombre . "\ncorreo: " . $correo . "\ncontacto: " . $contacto . "\nmensaje: " . $mensaje;
+ mail($destino, "contacto desde nuestra web", $contenido); 
+  header("location:index.html");
+  ?>
