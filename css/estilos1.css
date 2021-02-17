@@ -108,6 +108,14 @@ header{
 }
 .panel3{
   position: relative;
+
+  border-radius: 15px;
+  padding-top: 50px;
+  color: #fff;
+  font-weight: none;
+}
+.panel13{
+  position: relative;
   padding-bottom: 50px;
   border-radius: 15px;
   padding-top: 50px;
