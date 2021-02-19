@@ -108,7 +108,6 @@ header{
 }
 .panel3{
   position: relative;
-
   border-radius: 15px;
   padding-top: 50px;
   color: #fff;
@@ -150,6 +149,13 @@ header{
   border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px; 
     padding-bottom:40px;
+}
+.panel16{
+  position: relative;
+  background-color: hsla(   0turn , 100% ,45% , 0.6 );
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; 
+  padding-bottom:40px;
 }
 .panel7{
   position: relative;
